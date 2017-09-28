@@ -1,0 +1,6 @@
+#demo {
+  border: 5px outset rgba(68, 64, 64, 0.92);
+  color: red;
+  width: 300px;
+  height: 20px;
+}
