@@ -22,5 +22,10 @@ calcController = {
     var result = calcLogic.divide(arg1, arg2, lastResult); // the function sends the 2 args from the controller which sends it to the logic
     calcModel.lastResult = result;
     calcView.display(result);
+  },
+  clear: function() {
+    var lastResult = calcModel.lastResult;
+    var result = calcLogic.clear(lastResult);
+    calcView.display(result);
   }
 };

@@ -24,6 +24,10 @@ calcHandlers = {
       var arg2 = Number(document.getElementById('arg2').value);
       calcController.divide(arg1, arg2);
     });
+    var clearButton = document.getElementById('clearButton');
+    clearButton.addEventListener('click', function() {
+      calcController.clear();
+    });
   }
 };
 

@@ -43,5 +43,11 @@ calcLogic = {
       result = arg2 / lastResult;
     }
     return result;
+  },
+  clear: function(lastResult) {
+    var result = null;
+    var zero = 0;
+    result = lastResult * zero;
+    return result;
   }
 };
